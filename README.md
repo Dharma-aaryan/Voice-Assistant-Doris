@@ -1,4 +1,4 @@
-# Voice-Assistant-Doris
+# Voice-Assistant-Mike
 A simple voice assistant that can do basic tasks like give the time, search anything on google, stackoverflow and wikipedia, play your favourite music or open youtube for you and send email to anyone you want.
 You can name your assitant with anything you want, I have named it Mike.
 
