@@ -25,3 +25,5 @@ pip install PyAudio
 
 if there is an error in installing the PyAudio library, refer the link below and follow the steps
 https://www.youtube.com/watch?v=Hf0rdIdqjQs&t=18s
+
+I have worked on python 3.8 version and I recommend to use python 3.8 as well. However, other versions of python will also work.
