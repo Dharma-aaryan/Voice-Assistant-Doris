@@ -12,7 +12,7 @@ Send mail to 'anyone'
 
 to exit, just say the word exit and the code will stop running.
 
-to run the code, first create a folder and download the code in that folder, second, install all the libraries mentioned below before running the code and third run the code in any IDE or commond prompt or terminal.
+to run the code, first create a folder and download the code in that folder, second, install all the libraries mentioned below before running the code and third run the code in any IDE or command prompt or terminal.
 
 instruction to run in command prompt/terminal - python Mike.py(for python version 3.8 and below)
                                                 py Mike.py(for python version 3.9 and above)
