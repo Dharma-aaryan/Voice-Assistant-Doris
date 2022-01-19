@@ -21,7 +21,7 @@ def speak(audio):
     engine.say(audio)
     engine.runAndWait()
 
-#Alex will greet you 
+#Mike will greet you 
 def wishMe():
     hour = int(datetime.datetime.now().hour)
     if hour >= 0 and hour < 12:
@@ -69,8 +69,8 @@ if __name__ == "__main__":
         query = takeCommand().lower()
 
         if "what is your name" in query:
-            speak("I am Doris your personal voice assistant")
-            print("I am Doris your voice assistant")
+            speak("I am Mike your personal voice assistant")
+            print("I am Mike your voice assistant")
 
         elif "what is your purpose" in query:
             speak("I am a simple voice-bot and here to help and assist you")
@@ -133,7 +133,7 @@ if __name__ == "__main__":
                 speak("Sorry I coulnt send the email")
 
         elif 'open code' in query:
-            codePath = "Doris.py"
+            codePath = "Mike.py"
             os.startfile(codePath)
 
         elif "exit" in query:
