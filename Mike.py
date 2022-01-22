@@ -45,7 +45,8 @@ def takeCommand():
             audio = r.listen(source)
             
     try:
-        print("Recognizing")
+        print("Analyzing")
+        speak("Analyzing")
         query = r.recognize_google(audio, language = "en-ln")
         print(f"Query: {query}\n")
         
@@ -63,6 +64,7 @@ def sendEmail(to, content):
     server.sendmail("aaryan.dhams@gmail.com", to, content)
     server.close()
     
+ #This Block of code is pretty self explanatory however, we have only used if-else loop and carried the result for the required input
 if __name__ == "__main__":
     wishMe()
     while True:
